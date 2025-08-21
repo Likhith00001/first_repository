@@ -1,0 +1,20 @@
+basiclly git is repository of new and old change .that can be reflacted after the period of time which created old version that can be taken back to the action.
+then we can work in the community and change and recovere the work and store them as the repository
+  
+
+
+git --version
+git status 'to check existing repository
+git init 'for using current repository as git repository
+ls 'to get details of list of all files
+
+there is working directory we need change it to git directory by taking them to status bar by command
+
+git add . ' to change directory to git directory
+
+git commit -m "version 1" 'for to see chamges detailes of commited change in the file
+
+ git config --global user.email "you@example.com" 'to add an user globely or local
+ git config --global user.name "you" ' to name globle or local user
+
+git log ' to see who logged in and changed the directory
