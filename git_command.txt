@@ -4,8 +4,9 @@ then we can work in the community and change and recovere the work and store the
 
 
 git --version
+git init 'for using current repository as git repository(creates the .git hidden file in the local directory)
 git status 'to check existing repository
-git init 'for using current repository as git repository
+
 ls 'to get details of list of all files
 
 there is working directory we need change it to git directory by taking them to status bar by command
