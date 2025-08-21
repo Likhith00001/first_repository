@@ -35,9 +35,13 @@ run the command in bash:
  clip < ~/.ssh/id_ed25519.pub 'to copy the ssh agent from agent to clipboard
  then add ssh key in the github space of ssh
 
+for every time connecting the server to local git
+git remote add origin url ' connect the github to local
+git commit -u origin master ' push the changes in github host perticularlly
+
 then start to commit changes from local to github
-git push -u origin master ' to push from localto github
-git commit -m "change file_name" ' to commit changes in directory
+git push -u origin master ' to push from local to github
+git commit -m "change file_name" ' to commit changes in directory of local host
 
 
 
