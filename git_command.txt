@@ -14,7 +14,75 @@ git add . ' to change directory to git directory
 
 git commit -m "version 1" 'for to see chamges detailes of commited change in the file
 
+git commit -m "intial commit" 'the newly  added changes
+
  git config --global user.email "you@example.com" 'to add an user globely or local
  git config --global user.name "you" ' to name globle or local user
 
 git log ' to see who logged in and changed the directory
+
+
+
+
+
+GITHUB : github is a platform which provide repository based on git to commit the changes and provide
+
+to create a SSH key 
+run the command in bash:
+ ssh-keygen -t ed25519 -C "likhith00001@gmail.com" 'enter ur email
+ eval "$(ssh-agent -s)" 'to star the ssh agent in local agent
+ ssh-add ~/.ssh/id_ed25519 'to add the id to the ssh agent
+ clip < ~/.ssh/id_ed25519.pub 'to copy the ssh agent from agent to clipboard
+ then add ssh key in the github space of ssh
+
+then start to commit changes from local to github
+git push -u origin master ' to push from localto github
+git commit -m "change file_name" ' to commit changes in directory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basic Git Commands
+git init – Initialize a new Git repository
+git clone [url] – Clone a repository from a remote source
+git status – Show the status of changes as untracked, modified, or staged
+git add [file] – Add a file to the staging area
+git add . – Add all files to the staging area
+git commit -m "[message]" – Commit changes with a message
+git log – View commit history
+git diff – Show changes between commits, commit and working tree, etc.
+git branch – List, create, or delete branches
+git checkout [branch|file] – Switch branches or restore working tree files
+git merge [branch] – Merge a branch into the active branch
+git pull – Fetch and integrate changes from the remote repository
+git push – Push local commits to the remote repository
+git remote – Manage set of tracked repositories
+git fetch – Download objects and refs from another repository
+Advanced/Other Useful Commands
+git config – Configure Git settings
+git reset [file|commit] – Unstage a file or reset commits
+git rm [file] – Remove a file from the staging area and the working directory
+git mv [file-original] [file-renamed] – Rename or move a file
+git stash – Stash changes in a dirty working directory
+git stash pop – Reapply stashed changes
+git tag – Create, list, or delete tags
+git show [commit|tag] – Show various types of objects
+git cherry-pick [commit] – Apply the changes introduced by some existing commits
+git rebase [branch] – Reapply commits on top of another base tip
+git revert [commit] – Revert a commit by creating a new one
+git archive – Create an archive of files from a named tree
+git bisect – Use binary search to find the commit that introduced a bug
+git blame [file] – Show what revision and author last modified each line of a file
+This list covers the most commonly used Git commands, but there are many more! You can see the full set by running git help or reading the official Git documentation.
+
