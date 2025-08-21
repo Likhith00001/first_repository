@@ -21,6 +21,11 @@ git commit -m "intial commit" 'the newly  added changes
 
 git log ' to see who logged in and changed the directory
 
+git diff --staged filename 'to see complete changes in the file
+
+git checkout filename ' for revert the change made before commit to the git
+git checkout . ' for revert all file before commit to the git
+
 
 
 
