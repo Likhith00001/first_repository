@@ -8,10 +8,13 @@ git init 'for using current repository as git repository(creates the .git hidden
 git status 'to check existing repository
 
 ls 'to get details of list of all files
+ls -la details of list
 
 there is working directory we need change it to git directory by taking them to status bar by command
 
-git add . ' to change directory to git directory
+get add -A ' to change directory to git all
+git add . ' to change directory to git directory without deleting file
+git add -u ' to change directory to git directory without creating new file
 
 git commit -m "version 1" 'for to see chamges detailes of commited change in the file
 
@@ -27,9 +30,16 @@ git diff --staged filename 'to see complete changes in the file
 git checkout filename ' for revert the change made before commit to the git
 git checkout . ' for revert all file before commit to the git
 
+git remote add origin url ' connect the github to local
+git push -u origin master ' to push from local to github
+git pull ' to pull the newlly created file from github to local working depository
+git clone sshurl . ' to clone entire same thing and file and folder in local git repository
 
-
-
+touch filename ' will create file in the current repository
+notepad filename 'to open the file in the required app
+vim filename 'vim is a command to edit the file in the console of the git then to insert edit press i or a 		to save :w to quit :q to save and exit :x
+ 
+creating .gitignore to ignore the uploading extions files which ignore the file while creating repository
 
 GITHUB : github is a platform which provide repository based on git to commit the changes and provide
 
