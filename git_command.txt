@@ -35,6 +35,17 @@ git push -u origin master ' to push from local to github
 git pull ' to pull the newlly created file from github to local working depository
 git clone sshurl . ' to clone entire same thing and file and folder in local git repository
 
+git rm filename 'will remove the fie from status bar before commit will remove the file from working directory
+
+git branch ' after the commit completed will show the list of branches
+first create repository and then again run the git remote add origin sshurl to connect new created branch on the github the push the files which commited 
+git branch foldername ' will create the new branch on the working directory
+git checkout foldername ' will change the branch on the working directory
+
+git merge foldernmae ' to murge the branches
+git branch -d foldername ' to delete branch in the local git
+git push origin --delete foldername ' to delete branch in the github
+
 touch filename ' will create file in the current repository
 notepad filename 'to open the file in the required app
 vim filename 'vim is a command to edit the file in the console of the git then to insert edit press i or a 		to save :w to quit :q to save and exit :x
