@@ -46,6 +46,8 @@ git merge foldernmae ' to murge the branches
 git branch -d foldername ' to delete branch in the local git
 git push origin --delete foldername ' to delete branch in the github
 
+git diff other_foldername ' to compare changes and commits between two branches or files folders
+
 touch filename ' will create file in the current repository
 notepad filename 'to open the file in the required app
 vim filename 'vim is a command to edit the file in the console of the git then to insert edit press i or a 		to save :w to quit :q to save and exit :x
