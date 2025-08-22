@@ -54,6 +54,22 @@ vim filename 'vim is a command to edit the file in the console of the git then t
  
 creating .gitignore to ignore the uploading extions files which ignore the file while creating repository
 
+in github we can call pull request to murge the main and branches and approve in the PR
+
+UNDOING THE changes
+Case1 staged file
+git reset or git reset filename ' will revert the changed and uncommited file
+
+case 2 commited files
+git reset HEAD-1 'head is is a lattest commited change and use this to change latest commmited change only
+
+case 3 commited many files
+git log ' every commit has its own hash value copy which one u want to go back
+git remove hash_value ' change will be reverted to the privious steps and undo the changes
+git reset --hard hash _value ' will change in the live editor
+
+fork is extention provided by the github to pull repositary from different owner and commit change and generate pull request commit change in the original owner repository.*** this is not like clone but copy the repositary
+
 GITHUB : github is a platform which provide repository based on git to commit the changes and provide
 
 to create a SSH key 
